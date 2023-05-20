@@ -1,0 +1,28 @@
+.header {
+    background: var(--accent-dark);
+    color: var(white);
+
+    padding: 20px 10px;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    
+}
+
+.logoWrapper {
+    padding: 5px;
+}
+
+
+
+.nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content:flex-end;
+    align-content: center;
+    gap: 20px
+}

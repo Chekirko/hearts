@@ -1,0 +1,25 @@
+.wrapper {
+    color: var(--white);
+    background: transparent;
+
+     cursor: pointer;
+
+     padding: 10px;
+   
+}
+
+.wrapper:hover {
+    color: var(--accent);
+    background: var(--white);
+
+    border-radius: 50px;
+}
+
+.active {
+    border-bottom: 5px solid var(--white);
+}
+
+.link {
+    width: 100%;
+    text-align: center;
+}

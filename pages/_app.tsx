@@ -3,7 +3,7 @@ import type { AppProps } from 'next/app'
 import { Montserrat } from 'next/font/google'
 
 const montserrat = Montserrat({
-  weight: ['400', '700'],
+  weight: ['400', '500', '700', '800'],
   style: ['normal', 'italic'],
   subsets: ['latin', 'cyrillic'],
   display: 'swap',

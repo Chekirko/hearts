@@ -1,7 +1,10 @@
 import Head from 'next/head'
+import { withLayout } from '@/layout/Layout'
+import NavLink from '@/components/NavLink/NavLink'
+import TopPageComponent from '@/page-components/TopPageComponent/TopPageComponent'
 // import styles from '@/styles/Home.module.css'
 
-export default function Home() {
+function Home() {
   return (
     <>
       <Head>
@@ -11,6 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <TopPageComponent />
+        <NavLink route="search">search</NavLink>
         <h1>Hello Ostap!</h1>
         <section>
           <h2>Команда табору</h2>
@@ -25,3 +30,5 @@ export default function Home() {
     </>
   )
 }
+
+export default withLayout(Home)

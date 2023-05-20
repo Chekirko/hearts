@@ -1,0 +1,15 @@
+.section {
+    padding: 20px;
+}
+
+.primary {
+    background: var(--white);
+
+}
+
+.secondary {
+    background: var(--gray);
+
+}
+
+
